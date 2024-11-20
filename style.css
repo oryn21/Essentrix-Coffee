@@ -35,42 +35,14 @@
 .Logo {
   font-size: 32px;
   font-weight: 600;
-  /* display: flex; */
-  /* justify-content: center; */
-  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-bottom: 10px;
   text-shadow: 2px 1px 6px;
 }
 /* Nav section */
-.nav-bar {
-  display: flex;
-  justify-content: center;
-  height: fit-content;
+.navbar-nav li {
+  margin-right: 30px;
 }
-.nav-link {
-  position: relative;
-}
-.nav-link a {
-  transition: 0.5s;
-  border-radius: 5px;
-  margin: 10px 30px 10px 30px;
-  padding: 10px;
-  border-radius: 20px 5px 20px;
-  text-align: center;
-  background-color: rgb(59, 199, 164);
-  box-shadow: 4px 4px 4px black;
-}
-.nav-link a:hover {
-  position: relative;
-  transition: 0.5s;
-  top: 3px;
-  left: 2px;
-  border-radius: 20px 20px;
-  margin: 0 40px 20px 40px;
-  padding: 10px;
-  text-align: center;
-  background-color: aqua;
-}
-
 /* Footer Section */
 footer {
   border-top: solid 1px;

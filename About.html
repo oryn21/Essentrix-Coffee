@@ -39,74 +39,80 @@
     <!-- header & Nav section -->
     <header>
       <nav
-        class="navbar top"
+        class="navbar navbar-expand-lg"
         style="
           margin: 0 auto;
           width: 98%;
-          background: gray;
+          background: #e3dbc8;
           border-radius: 20px;
           border-top: solid 1px;
           box-shadow: 9px 6px 9px black;
         "
       >
         <div class="container-fluid">
-          <div class="nv">
-            <a class="Logo" href="/index.html"
-              ><span style="color: rgba(241, 4, 4, 0.89)">E</span>ssentrix
-            </a>
-          </div>
-
+          <a class="Logo" href="/index.html"
+            ><span style="color: rgba(241, 4, 4, 0.89)">E</span>ssentrix
+          </a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="nav-bar-expand-lg">
-              <div class="nav-link">
-                <a href="/index.html">Home</a>
-                <a href="/menu.html">Menu</a>
-                <a href="/Beans.html">Beans</a>
-                <a href="/About.html">About</a>
-              </div>
-            </div>
-          </div>
-
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZBTirOgzjaBi0u0v0Ea2xCxRLlXn6IQ89g&s"
+              alt=""
+              style="border-radius: 10px; width: 30px; height: 30px"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/menu.html">Menu</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/Beans.html">Beans</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/About.html">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder=" "
+                aria-label="Search"
+              />
+              <button
+                class="btn"
+                style="
+                  background: gray;
+                  border-radius: 13px;
+                  box-shadow: 3px 4px 9px rgb(51, 50, 50);
+                "
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
         </div>
       </nav>
-
-      <!-- <div class="top">
-        <div>
-          <a class="Logo" href="/index.html"
-            ><span style="color: rgba(241, 4, 4, 0.89)">E</span>ssentrix
-          </a>
-        </div>
-        <div class="nav-bar">
-          <ul class="nav-link">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/menu.html">Menu</a></li>
-            <li><a href="/Beans.html">Beans</a></li>
-            <li><a href="/About.html">About</a></li>
-          </ul>
-        </div>
-      </div> -->
     </header>
 
     <!-- main sextion -->
